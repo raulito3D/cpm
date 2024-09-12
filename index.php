@@ -113,7 +113,7 @@ session_start();
                 message = "Contraseña incorrecta.";
                 break;
             case 'user_not_found':
-                message = "El usuario no está registrado.";
+                message = "El usuario no está registrado."; 
                 break;
             default:
                 message = "Error desconocido.";
