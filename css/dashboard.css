@@ -1,0 +1,63 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f4f4f4;
+}
+
+.container {
+    text-align: center;
+    background-color: white;
+    padding: 50px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 80%;
+    max-width: 600px;
+}
+
+header {
+    margin-bottom: 20px;
+}
+
+.escudo {
+    width: 120px;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+.welcome-message h1 {
+    color: #DC3545;
+    font-size: 36px;
+    margin-bottom: 15px;
+}
+
+.welcome-message p {
+    color: #333;
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+@media (max-width: 768px) {
+    .container {
+        width: 95%;
+        padding: 30px;
+    }
+
+    .welcome-message h1 {
+        font-size: 28px;
+    }
+
+    .welcome-message p {
+        font-size: 16px;
+    }
+}
+

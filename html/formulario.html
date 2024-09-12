@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro de Usuario</title>
+    <link rel="stylesheet" href="../css/fl.css"> <!-- Ruta corregida a la carpeta css -->
+</head>
+<body>
+    <div class="formulario-container">
+        <h2>Formulario de Registro</h2>
+        <form action="../php/procesar.php" method="POST"> <!-- Ruta relativa a la carpeta php -->
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre" required>
+
+            <label for="correo">Correo:</label>
+            <input type="email" id="correo" name="correo" required>
+
+            <label for="password">Contraseña:</label>
+            <input type="password" id="password" name="password" required>
+
+            <input type="submit" value="Registrarse">
+        </form>
+    </div>
+</body>
+</html>
